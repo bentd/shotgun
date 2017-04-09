@@ -1,3 +1,5 @@
+
+// Ionic
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
@@ -5,10 +7,9 @@ import { NavController } from 'ionic-angular';
   selector: 'page-about',
   templateUrl: 'about.html'
 })
-export class AboutPage {
-
-  constructor(public navCtrl: NavController) {
-
+export class AboutPage 
+{
+  constructor(public navCtrl: NavController) 
+  {
   }
-
 }
